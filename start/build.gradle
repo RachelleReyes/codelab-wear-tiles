@@ -69,4 +69,6 @@ dependencies {
     def kotlinX = '1.6.4'
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlinX"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-guava:$kotlinX"
+
+    implementation "androidx.wear.tiles:tiles-material:$tilesVersion"
 }
